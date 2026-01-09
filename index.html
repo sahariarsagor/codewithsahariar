@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahariar Sagor - Machine Learning Specialist & Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-container">
+                <a href="#" class="logo">
+                    <span class="logo-text">Sahariar</span>
+                    <span class="logo-dot">.</span>
+                </a>
+
+                <div class="nav-menu" id="navMenu">
+                    <ul class="nav-links">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#skills" class="nav-link">Skills</a></li>
+                        <li><a href="#projects" class="nav-link">Projects</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+
+                    <div class="nav-actions">
+                        <a href="mailto:contactsahariar@gmail.com" class="btn-contact">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Hire Me</span>
+                        </a>
+                    </div>
+                </div>
+
+                <button class="menu-toggle" id="menuToggle">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles-container" id="particles"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>👨‍💻 Machine Learning Specialist</span>
+                </div>
+
+                <h1 class="hero-title">
+                    <span class="title-line">Hi, I'm <span class="gradient-text">Sahariar Sagor</span></span>
+                    <span class="title-line">
+                        <span class="static-text">A Passionate</span>
+                        <div class="dynamic-text-container">
+                            <div class="dynamic-text-wrapper">
+                                <span class="dynamic-text">Programmer</span>
+                                <span class="dynamic-text">Python Developer</span>
+                                <span class="dynamic-text">Web Developer</span>
+                                <span class="dynamic-text">ML Engineer</span>
+                                <span class="dynamic-text">Trainer</span>
+                            </div>
+                        </div>
+                    </span>
+                </h1>
+
+                <p class="hero-description">
+                    I build intelligent systems and modern web applications. Specializing in Python,
+                    Machine Learning, and Full-Stack Development to create innovative solutions
+                    that solve real-world problems.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Contact Me</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-controls">
+                            <span class="control close"></span>
+                            <span class="control minimize"></span>
+                            <span class="control maximize"></span>
+                        </div>
+                        <span class="window-title">sahariar.py</span>
+                    </div>
+                    <div class="window-content">
+                        <pre><code>
+<span class="code-keyword">class</span> <span class="code-class">SahariarSagor</span>:
+    <span class="code-keyword">def</span> <span class="code-function">__init__</span>(<span class="code-self">self</span>):
+        <span class="code-self">self</span>.name = <span class="code-string">"Sahariar Sagor"</span>
+        <span class="code-self">self</span>.title = <span class="code-string">"ML Engineer & Developer"</span>
+        <span class="code-self">self</span>.skills = {
+            <span class="code-string">"ML"</span>: [<span class="code-string">"Python"</span>, <span class="code-string">"PyTorch"</span>, <span class="code-string">"TensorFlow"</span>],
+            <span class="code-string">"Web"</span>: [<span class="code-string">"React"</span>, <span class="code-string">"Node.js"</span>, <span class="code-string">"MongoDB"</span>]
+        }
+    
+    <span class="code-keyword">def</span> <span class="code-function">build_project</span>(<span class="code-self">self</span>, idea):
+        <span class="code-keyword">return</span> <span class="code-string">f"Transforming </span>{idea}<span class="code-string"> into reality"</span>
+    
+<span class="code-comment"># Currently working on</span>
+<span class="code-variable">current_project</span> = <span class="code-string">"AI-Powered Solutions"</span>
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll down</span>
+        </div> -->
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical <span class="gradient-text">Expertise</span></h2>
+                <p class="section-subtitle">Technologies I use to build exceptional solutions</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Data Science & ML -->
+                <div class="skill-category glass-card">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Data Science & Machine Learning</h3>
+                        <p>Advanced analytics and AI solutions</p>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="python">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 95%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="pytorch">
+                            <div class="skill-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">PyTorch</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="tensorflow">
+                            <div class="skill-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">TensorFlow</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="opencv">
+                            <div class="skill-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">OpenCV</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category glass-card">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Full-stack modern web applications</p>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="react">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">React.js</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="nodejs">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="mongodb">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="tailwind">
+                            <div class="skill-icon">
+                                <i class="fas fa-wind"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Tailwind CSS</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-stack">
+                <h3>Tech Stack</h3>
+                <div class="stack-items">
+                    <div class="stack-item">NumPy</div>
+                    <div class="stack-item">Pandas</div>
+                    <div class="stack-item">Scikit-learn</div>
+                    <div class="stack-item">Express.js</div>
+                    <div class="stack-item">JavaScript</div>
+                    <div class="stack-item">SQL</div>
+                    <div class="stack-item">Matplotlib</div>
+                    <div class="stack-item">Seaborn</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">Innovative solutions showcasing my expertise</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-badge">AI/ML</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Intelligent Stock Predictor</h3>
+                        <p>Advanced LSTM neural network for stock market prediction with real-time sentiment analysis of
+                            financial news.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">LSTM</span>
+                            <span class="tech-tag">NLP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="project-badge">Deep Learning</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Medical Image Analysis</h3>
+                        <p>CNN-based system for detecting anomalies in medical scans with 98% accuracy in early disease
+                            detection.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">CNN</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-badge">Full Stack</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Analytics Dashboard</h3>
+                        <p>Real-time analytics platform with customer segmentation, sales predictions, and interactive
+                            visualizations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">D3.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+                    <p class="contact-description">
+                        Interested in collaborating? Have a project in mind?
+                        Let's discuss how we can work together to bring your ideas to life.
+                    </p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>WhatsApp</h4>
+                                <p>+880 1819 549286</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>contactsahariar@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Follow Me</h4>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/@sahariarsagor00/" class="social-icon" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://github.com/sahariarsagor" class="social-icon" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com/@sahariarsagor" class="social-icon" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="mailto:contactsahariar@gmail.com" class="social-icon">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">Sahariar</span>
+                    <span class="logo-dot">.</span>
+                </div>
+
+                <p class="footer-tagline">
+                    Building the future with code and intelligence
+                </p>
+
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="footer-copyright">
+                    <p>&copy; 2024 Sahariar Sagor. All rights reserved.</p>
+                    <p>Programmer & Machine Learning Specialist</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
