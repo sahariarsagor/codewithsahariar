@@ -13,17 +13,18 @@
             // Typed.js text animation
             var typed = new Typed('#typed-text', {
                 strings: [
-                    'Full-Stack Developer',
-                    'UI/UX Designer',
+                    'Frontend Developer',
+                    'Python Developer',
+                    'Programming Trainer',
                     'Problem Solver',
-                    'Tech Enthusiast'
+                    'Programming Trainer'
                 ],
                 typeSpeed: 50,
                 backSpeed: 30,
                 backDelay: 1500,
                 loop: true,
                 showCursor: true,
-                cursorChar: '|'
+                cursorChar: '🚗'
             });
             
             // Initialize particles.js background
